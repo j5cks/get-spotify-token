@@ -4,7 +4,7 @@ import crypto from "crypto";
 
 const app = express();
 
-const PORT = process.env.PORT || 8888;
+const PORT = process.env.PORT || 8080;
 const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
 const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
 const REDIRECT_URI = process.env.SPOTIFY_REDIRECT_URI;
